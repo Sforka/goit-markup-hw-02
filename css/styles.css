@@ -100,9 +100,18 @@ color: black;
         letter-spacing: 0.06em;
     
         color: #FFFFFF;
-        background: #2196F3;
-            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-            border-radius: 4px;
+        background-color: #188CE8;
+
+        cursor: pointer
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background: #2196F3;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+    };
+    }
 }
 
 .feature-title {
@@ -171,7 +180,6 @@ color: black;
         font-weight: 400;
         font-size: 16px;
         line-height: 19px;
-        /* identical to box height */
     
         text-align: center;
         letter-spacing: 0.03em;
