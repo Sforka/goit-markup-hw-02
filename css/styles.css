@@ -48,6 +48,8 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   text-decoration: none;
+
+  color: var(--color-black-text);
 }
 .logo-text {
   color: #2196f3;
@@ -139,7 +141,6 @@ body {
 }
 
 .feature-text {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -183,7 +184,6 @@ body {
 }
 
 .team-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
 
@@ -212,7 +212,6 @@ body {
 }
 
 .address-map {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
 
@@ -222,7 +221,6 @@ body {
 }
 
 .address-mail {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
 
@@ -232,7 +230,6 @@ body {
 }
 
 .address-tel {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
 
@@ -285,7 +282,6 @@ body {
 }
 
 .projects-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
 
