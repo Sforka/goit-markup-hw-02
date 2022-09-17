@@ -1,7 +1,16 @@
+:root {
+    --color-black-text: #000000;
+    --color-white-text: #ffffff;
+    --color-active-link: #2196F3;
+    --color-nav-text: #212121;
+    --color-contact-text: #757575;
+    --color-title-text: #212121;
+    --color-main-text: #757575;
+}
 body {
 font-family: "Roboto", sans-serif;
 font-style: normal;
-color: black;
+color: var(--color-black-text);
 }
 
 .list {
@@ -27,44 +36,43 @@ color: black;
 
 .logo {
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
     text-decoration: none;
-    
-    color: #000000;
 }
 .logo-text {
     color: #2196F3;
 }
 
 .nav-link {
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     
-    color: #212121;
+    color: var(--color-nav-text);
 }
 
 .contacts-link {
-        font-style: normal;
         font-weight: 500;
         font-size: 14px;
-        line-height: 16px;
+        line-height: 1.14;
         letter-spacing: 0.02em;
     
-        color: #757575;
+        color: var(--color-contact-text);
 }
 
 .nav-link:hover,
 .nav-link:focus,
 .contacts-link:hover,
 .contacts-link:focus {
-    color: #2196F3;
+    color: var(--color-active-link);
+}
+
+.nav-list .link.current {
+    color: var(--color-active-link);
 }
 
 
@@ -82,7 +90,7 @@ color: black;
         letter-spacing: 0.06em;
         text-transform: uppercase;
     
-        color: #FFFFFF;
+        color: var(--color-white-text);
 }
 
 .hero-button {
@@ -95,7 +103,7 @@ color: black;
         text-align: center;
         letter-spacing: 0.06em;
     
-        color: #FFFFFF;
+        color: var(--color-white-text);
         background-color: #188CE8;
 
         border: none;
@@ -106,7 +114,7 @@ color: black;
 
 .hero-button:hover,
 .hero-button:focus {
-    background: #2196F3;
+    background: var(--color-active-link);
     border: none;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     };
@@ -118,7 +126,7 @@ color: black;
         letter-spacing: 0.03em;
         text-transform: uppercase;
     
-        color: #212121;
+        color: var(--color-title-text);
 }
 
 .feature-text {
@@ -127,7 +135,7 @@ color: black;
         line-height: 1.7;
         letter-spacing: 0.03em;
     
-        color: #757575;
+        color: var(--color-main-text);
 }
 
 .box-title {
@@ -137,7 +145,7 @@ color: black;
         text-align: center;
         letter-spacing: 0.03em;
     
-        color: #212121;
+        color: var(--color-title-text);
 }
 
 .team-title {
@@ -147,29 +155,29 @@ color: black;
         text-align: center;
         letter-spacing: 0.03em;
     
-        color: #212121;
+        color: var(--color-title-text);
 }
 
 .team-name {
         font-weight: 500;
         font-size: 16px;
-        line-height: 19px;
+        line-height: 1.18;
     
         text-align: center;
         letter-spacing: 0.03em;
     
-        color: #212121;
+        color: var(--color-title-text);
 }
 
 .team-text {
         font-weight: 400;
         font-size: 16px;
-        line-height: 19px;
+        line-height: 1.18;
     
         text-align: center;
         letter-spacing: 0.03em;
     
-        color: #757575;
+        color: var(--color-main-text);
 }
 
 
@@ -180,35 +188,30 @@ color: black;
 
 .logo-footer {
     font-family: 'Raleway';
-        font-style: normal;
         font-weight: 700;
         font-size: 26px;
-        line-height: 31px;
+        line-height: 1.19;
         /* identical to box height */
     
         letter-spacing: 0.03em;
     
-        color: #FFFFFF;
+        color: var(--color-white-text);
 }
 
 .address-map {
-        font-style: normal;
         font-weight: 400;
         font-size: 14px;
-        line-height: 24px;
-        /* or 171% */
+        line-height: 1.71;
     
         letter-spacing: 0.03em;
     
-        color: #FFFFFF;
+        color: var(--color-white-text);
 }
 
 .address-mail {
-        font-style: normal;
         font-weight: 400;
         font-size: 14px;
-        line-height: 24px;
-        /* or 171% */
+        line-height: 1.71;
     
         letter-spacing: 0.03em;
     
@@ -216,11 +219,9 @@ color: black;
 }
 
 .address-tel {
-        font-style: normal;
         font-weight: 400;
         font-size: 14px;
-        line-height: 24px;
-        /* or 171% */
+        line-height: 1.71;
     
         letter-spacing: 0.03em;
     
@@ -261,25 +262,23 @@ color: black;
 }
 
 .projects-title {
-        font-style: normal;
         font-weight: 700;
         font-size: 18px;
         line-height: 2.0;
     
         letter-spacing: 0.06em;
     
-        color: #212121;
+        color: var(--color-nav-text);
 
 }
 
 .projects-text {
-        font-style: normal;
         font-weight: 400;
         font-size: 16px;
         line-height: 1.87;
     
         letter-spacing: 0.03em;
     
-        color: #757575;
+        color: var(--color-main-text);
 
 }
